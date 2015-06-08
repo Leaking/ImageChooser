@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dip"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/photofolder_img"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/photofolder_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/photofolder_img"
+        android:text="camera"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/photofolder_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="14"
+        android:textSize="20sp" />
+
+</RelativeLayout>
